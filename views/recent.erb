@@ -1,0 +1,32 @@
+<html>
+  <head>
+<title>Recent Updated Gems</title>
+</head>
+<body>
+<h1>Recent Updated Gems </h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>info</th>
+    <th>Version</th>
+    <th>Author</th>
+  </tr>
+
+  <%= @gems.first.inspect %>
+
+  <% @gems.each do |gem| %>
+    <tr>
+      <td> <%= gem["name"] %> </td>
+      <td> <%= gem["info"] %> </td>
+      <td> <%= gem["version"] %> </td>
+      <td> <%= gem["authors"] %> </td>
+    </tr>
+  <% end %>
+</table>
+
+<address>
+  <a href="mailto:raimonster@gmail.com">Raimon Grau</a>
+</address>
+</body>
+</html>
