@@ -1,0 +1,6 @@
+
+* Latest Gems
+  Sinatra app to show the latest updated gems in rubygems
+
+* Author
+  Raimon Grau <raimonster@gmail.com>
