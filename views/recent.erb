@@ -14,7 +14,7 @@
 	    <span class="label label-info"> <%= gem["name"] %> </span>
 	  </li>
 	  <li class="muted">by <%= gem["authors"] %></li>
-	  <li><%= gem["info"][0...150] %></li>
+	  <li><%= gem["info"][0...150] %> <%= link_to_gem(gem) %> </li>
 	</ul>
       </div>
     <% end %>

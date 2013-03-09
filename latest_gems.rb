@@ -12,3 +12,9 @@ end
 
 # done, stack is cedar
 # http://latest-gems.herokuapp.com/ | git@heroku.com:latest-gems.git
+
+helpers do
+  def link_to_gem(gem)
+    "<a href='http://rubygems.org/gems/#{gem["name"]}'> #{gem["name"]}</a>"
+  end
+end
