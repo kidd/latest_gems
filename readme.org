@@ -1,6 +1,8 @@
-
 * Latest Gems
-  Sinatra app to show the latest updated gems in rubygems
+  Sinatra app to show the latest updated gems in rubygems.
+
+* Where?
+  http://latest-gems.herokuapp.com/
 
 * Author
   Raimon Grau <raimonster@gmail.com>
